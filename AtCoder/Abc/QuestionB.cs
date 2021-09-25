@@ -13,14 +13,11 @@ namespace AtCoder.Abc
         public static void Main(string[] args)
         {
             Console.SetOut(sw);
+            string S = Console.ReadLine();
+            var N = long.Parse(Console.ReadLine()); // 整数の入力
+            var aS = Console.ReadLine().Split(' ').ToArray(); // 文字列配列の入力
+            var aN = Console.ReadLine().Split(' ').Select(x => long.Parse(x)).ToArray(); // 整数配列の入力
 
-            string S = Console.ReadLine(); // 文字列の入力
-            long nl = long.Parse(Console.ReadLine()); // 整数の入力
-            string[] arrStr = Console.ReadLine().Split(' '); // 文字列配列の入力
-            var arrLong = Console.ReadLine().Split(' ').Select(i => long.Parse(i)).ToArray(); // 整数配列の入力
-
-
-            Console.WriteLine();
 
             Console.Out.Flush();
         }

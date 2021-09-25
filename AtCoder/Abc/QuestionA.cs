@@ -17,21 +17,6 @@ namespace AtCoder.Abc
             var aS = Console.ReadLine().Split(' ').ToArray(); // 文字列配列の入力
             var aN = Console.ReadLine().Split(' ').Select(x => long.Parse(x)).ToArray(); // 整数配列の入力
 
-
-            //二次元整数配列用
-            /*
-            var LL = new List<List<long>>();
-            for (int i = 0; i < (int)N; i++)
-			{
-                LL.Add(new List<long>());
-                LL[i].AddRange(Console.ReadLine().Split(' ').Select(x => long.Parse(x)).ToList());
-			}
-            foreach (var item in LL)
-	        {
-                Console.WriteLine(string.Join(" ",item));
-	        }
-            */
-
             Console.Out.Flush();
         }
     }
